@@ -1,0 +1,2 @@
+--Just docuemntation nothing to see here
+--duplication corrected and now we are getting exactly 99441 rows exactly

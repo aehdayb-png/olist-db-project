@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: olist-postgres
+    environment:
+      POSTGRES_PASSWORD: da1yl433v426
+      POSTGRES_DB: olist_database
+    ports:
+      - "5432:5432"
+    volumes:
+      - olist_pgdata:/var/lib/postgresql/data
+
+volumes:
+  olist_pgdata:
